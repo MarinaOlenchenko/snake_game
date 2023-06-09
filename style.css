@@ -10,15 +10,8 @@ body {
 
 #gameContainer {
   position: relative;
-  width: 608px; /* Ширина контейнера для компьютера */
-  height: 608px; /* Высота контейнера для компьютера */
-}
-
-@media (max-width: 768px) {
-  #gameContainer {
-    width: 100%; /* Ширина контейнера для мобильных устройств */
-    height: 100%; /* Высота контейнера для мобильных устройств */
-  }
+  width: 608px;
+  height: 608px;
 }
 
 #game {
@@ -40,8 +33,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
 
 .restart-button {
   margin-top: 20px;
